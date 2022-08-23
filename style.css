@@ -1,0 +1,44 @@
+body{
+    font-family: 'Roboto, Source Sans Pro', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-family: 'Roboto';
+    color: rgb(255, 0, 119);
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+h2{
+    font-family: 'Source Sans Pro';
+}
+
+p{
+    color: rgb(134, 134, 134);
+}
+.info{
+    width: 35%;
+    float: left;
+    margin-left: 12%;
+    margin-top: 150px;
+    
+    
+    
+}
+.info img{
+    width: 100%;
+    margin-left: -150px;
+    margin-top: -80px;
+   
+    
+    
+}
+
+.background{
+    background-image: url("img/header-bg.png") ;
+    background-size: cover;     
+}
+section{
+    height: 600px;
+
+}
