@@ -28,10 +28,7 @@ p{
 .info img{
     width: 100%;
     margin-left: -150px;
-    margin-top: -80px;
-   
-    
-    
+    margin-top: -80px; 
 }
 
 .background{
@@ -42,3 +39,51 @@ section{
     height: 600px;
 
 }
+.button{
+        background-color: #f7005f; 
+        border-radius: 2px;
+        color: rgb(255, 255, 255);
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+.button:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+.backgroundtwo{
+    background-image: url("img/biography-bg.png") ;
+    background-size: cover; 
+}
+
+.infotwo{
+    width: 35%;
+    float: left;
+    margin-left: 12%;
+    margin-top: 100px;
+}
+.infotwo img{
+    height: 500px;
+    margin-left: 140px;
+    margin-top: -50px;
+}
+.workimg{
+    float: left;
+    width: 25%;
+    margin: 50px;
+    margin-left: 60px;
+}
+.workimg img{
+    width: 100%;
+}
+.workimg img:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+  }
+
+
