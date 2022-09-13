@@ -86,4 +86,42 @@ section{
     transform: scale(1.05); 
   }
 
+.clientinfo{
+    text-align: center;
+}
 
+.backgroundtherd{
+    background-image: url(img/footer-bg.png);
+    background-size: cover; 
+}
+.clientinfo h1{
+    color: black;
+    font-weight: 800;
+    margin-top: 100px;
+    display: inline-block;
+}
+.clientinfo p{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 120px;
+    color: black;
+    opacity: 0.8;
+}
+
+.contactbox{
+    background-color: tomato;
+    background-image: linear-gradient(to bottom right, tomato, rgba(248, 42, 5, 0.767));
+    width: 350px;
+    padding: 40px;
+    margin-left: 35%;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.messagetext{
+    color: white;
+    text-align: center;
+}
+.messagetext p{
+    color: white;
+    font-weight: 600;
+}
